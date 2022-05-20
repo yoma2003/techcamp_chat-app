@@ -21,14 +21,39 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.new_room a {
+  font-size: 10px;
+  padding: 14px;
+  text-align: center;
+  display: block;
+  border: 1px solid deepskyblue;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 /* サイドバーコンテンツ */
 
-.side_bar_contents {
+.side_bar_rooms {
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: auto;
+}
+
+.room {
+  padding: 20px 0 40px;
+  color: white;
 }
 
 /* メインチャット */
