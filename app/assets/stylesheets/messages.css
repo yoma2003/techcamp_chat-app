@@ -19,8 +19,8 @@
 
 .side_bar_top {
   height: 100px;
-  background-color: #253141;
   padding: 0 20px;
+  background-color: #253141;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,10 +34,8 @@
 
 .new_room a {
   font-size: 10px;
+  border: 1px solid lightblue;
   padding: 14px;
-  text-align: center;
-  display: block;
-  border: 1px solid deepskyblue;
   color: deepskyblue;
   text-decoration: none;
 }
@@ -63,6 +61,25 @@
   height: 100px;
   background-color: #fff;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.room_title {
+  margin-top: 36px; 
+  font-size: 24px;
+  color: #333;
+}
+
+.room_exit {
+  margin-top: 40px;
+}
+
+.room_exit a {
+  padding: 20px;
+  border: 1px solid darkred;
+  color:darkred;
+  text-decoration: none;
 }
 
 /* チャットメッセージ */
@@ -71,7 +88,38 @@
   height: calc(100vh - 190px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
+  overflow: auto;
 }
+
+.chat_message {
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.message_top {
+  display: flex;
+}
+
+.message_name {
+  font-size: 16px;
+  color: #434A54;
+}
+
+.message_date {
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+
+.message_bottom {
+  margin-top: 10px;
+}
+
+.message_text {
+  font-size: 14px;
+  color: #434A54;
+}
+
 
 /* チャットフォームズ */
 
