@@ -127,4 +127,42 @@
   height: 90px;
   background-color: #DDD;
   padding: 20px 40px;
+  display: flex;
+}
+
+.input-form {
+  flex: 1;
+  background-color: white;
+  display: flex;
+}
+
+.message_form {
+  border: none;
+  flex: 1;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.submit-form {
+  padding: 0 20px;
+  margin-left: 15px;
+  height: 50px;
+  background-color: #38AEF0;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+.image_form {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
