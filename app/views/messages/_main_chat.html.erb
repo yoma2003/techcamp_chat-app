@@ -4,33 +4,7 @@
 </div>
 
 <div class="chat_messages">
-  <div class="chat_message">
-    <div class="message_top">
-      <div class="message_name">テスト</div>
-      <div class="message_date">2022/05/21 10:21:00</div>
-    </div>
-    <div class="message_bottom">
-      <div class="message_text">おはよう</div>
-    </div>
-  </div>
-  <div class="chat_message">
-    <div class="message_top">
-      <div class="message_name">Tom</div>
-      <div class="message_date">2022/05/21 10:21:00</div>
-    </div>
-    <div class="message_bottom">
-      <div class="message_text">おはよう</div>
-    </div>
-  </div>
-  <div class="chat_message">
-    <div class="message_top">
-      <div class="message_name">Tom</div>
-      <div class="message_date">2022/05/21 10:21:00</div>
-    </div>
-    <div class="message_bottom">
-      <div class="message_text">おはよう</div>
-    </div>
-  </div>
+  <%= render partial: "message", collection: @messages %>
 </div>
 
 <div class="chat_forms">
