@@ -133,6 +133,9 @@
   height: 90px;
   background-color: #DDD;
   padding: 20px 40px;
+}
+
+.form {
   display: flex;
 }
 
@@ -171,4 +174,8 @@
 
 .hidden {
   display: none;
+}
+
+.field_with_errors {
+  display: contents;
 }
