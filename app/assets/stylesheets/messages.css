@@ -133,6 +133,9 @@
   height: 90px;
   background-color: #DDD;
   padding: 20px 40px;
+}
+
+.form {
   display: flex;
 }
 
